@@ -104,25 +104,20 @@ body {
 .button {
     width: 100%;
     background: var(--dark-cyan);
-    height: 3rem;
     border-radius: 0.7rem;
+    color: var(--white);
+    font-weight: 700;
+    min-height: 4rem;
+
 }
 
 .button:hover {
     background: var(--dark-blue);
 }
 
-.button-link {
-    color: var(--white);
-    text-decoration: none;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .cart-icon {
     margin-right: 1rem;
+    display: inline-block;
 }
 
 @media screen and (min-width: 43.75em) {
