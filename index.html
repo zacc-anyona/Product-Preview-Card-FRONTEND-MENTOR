@@ -17,10 +17,10 @@
 <body>
 
   <main class="main">
-    <figure class="product">
-      <img class="product-img-1" src="./images/image-product-mobile.jpg" alt="Bottle of perfume (Mobile image).">
-      <img src="./images/image-product-desktop.jpg" alt="Bottle of perfume (Desktop image)." class="product-img-2">
-    </figure>
+    <picture>
+      <source media="(min-width: 43.75em)" srcset="./images/image-product-desktop.jpg" >
+      <img src="./images/image-product-mobile.jpg" alt="Bottle of perfume" class="product-img">
+    </picture>
 
     <div class="content">
       <p class="perfume-text">Perfume</p>
